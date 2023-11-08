@@ -1,9 +1,9 @@
 clc
-close all
+clear all
 format long e15.8
 
 
-// Define the number of observations and variables
+
 f=@(x) x-2^(-x); 
 a=input('enter the right interval ');
 b=input('enter the left interval ');
